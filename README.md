@@ -20,7 +20,6 @@ A simple weather forecast web application that allows users to check the weather
 
 ## Demo
 
-> Replace this URL with your GitHub Pages link after deployment:  
 `https://salma-mostafaa.github.io/sky_signals/`
 
 ---
