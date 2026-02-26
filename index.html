@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="title">
+            <div class="logo"><img src="logo.png" alt="cloud logo"></div>
+            <h1>Weather Forecast</h1>
+        </div>
+
+        <div class="navlinks">
+            <ul>
+                <a href="#"><li class="active">Home</li></a>
+                <a href="#"><li>News</li></a>
+                <a href="#"><li>Live cameras</li></a>
+                <a href="#"><li>Photos</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="sec1">
+
+        <div class="input-sec">
+            <input type="text" id="searchInput" placeholder="Find your location...">
+            <button>Search</button>
+        </div>
+
+        <div class="weather-layout">
+
+            <div class="weather-left">
+                <h2 class="city-name">City Name</h2>
+                <p class="today-day" id="todayDay">Day</p>
+                <h1 class="main-temp">20°C</h1>
+
+                <p class="today-small" id="todayDayTemp">28°C</p>
+                <p class="today-small" id="todayNightTemp">16°C</p>
+
+                <p class="condition">Cloudy</p>
+
+                <div class="forecast" id="weatherCards"></div>
+            </div>
+
+            <div class="weather-right">
+                <div class="info">
+                    <span><i class="fas fa-wind"></i> Wind</span>
+                    <span>—</span>
+                </div>
+                <div class="info">
+                    <span><i class="fas fa-tint"></i> Humidity</span>
+                    <span>—</span>
+                </div>
+                <div class="info">
+                    <span><i class="fas fa-tachometer-alt"></i> Pressure</span>
+                    <span>—</span>
+                </div>
+                <div class="info">
+                    <span><i class="fas fa-sun"></i> UV</span>
+                    <span>—</span>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <section class="sec2">
+        
+        <div class="input-sec2">
+            <input type="text" id="subscribeInput" placeholder="Enter your email to subscribe...">
+            <button>Subscribe</button>
+        <div class="icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter" ></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest" ></i></a>
+        </div>
+        </div>
+        <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
