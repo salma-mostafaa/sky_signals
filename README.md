@@ -20,7 +20,7 @@ A simple weather forecast web application that allows users to check the weather
 
 ## Demo
 
-`https://salma-mostafaa.github.io/sky_signals/`
+https://salma-mostafaa.github.io/sky_signals/
 
 ---
 
